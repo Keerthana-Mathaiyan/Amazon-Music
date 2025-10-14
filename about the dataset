@@ -1,0 +1,25 @@
+| Column Name         | What It Is                                                   | Why It Matters                                                                            |
+| ------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| `id_songs`          | Unique identifier for each song                              | Used to uniquely identify and track songs in the database                                 |
+| `name_song`         | Name of the song                                             | Useful for display, search, and user interaction                                          |
+| `popularity_songs`  | Popularity score of the song (usually 0–100 scale)           | Indicates how well the song is performing; important for recommendation and ranking       |
+| `duration_ms`       | Length of the song in milliseconds                           | Important for playback, playlist creation, and analysis of song length trends             |
+| `explicit`          | Whether the song has explicit lyrics (true/false)            | Needed for content filtering, especially for underage users                               |
+| `id_artists`        | Unique ID(s) of the artist(s) who made the song              | Helps in linking songs to artist profiles                                                 |
+| `release_date`      | Date the song was released                                   | Useful for understanding trends over time or artist evolution                             |
+| `danceability`      | Score (0-1) describing how suitable the song is for dancing  | Helps in mood-based recommendations (e.g., party playlists)                               |
+| `energy`            | Score (0-1) representing intensity and activity of the track | Used in mood analysis and dynamic playlist creation                                       |
+| `key`               | Musical key (e.g., C = 0, C#/Db = 1, ..., B = 11)            | Used in music theory analysis, DJing, or harmonically mixing songs                        |
+| `loudness`          | Average loudness in decibels (dB)                            | Reflects how “loud” a song sounds; helps in normalization                                 |
+| `mode`              | 1 = major, 0 = minor                                         | Major is happy/uplifting, minor is sad/dark — helps in emotional analysis                 |
+| `speechiness`       | Amount of spoken words (higher = more talk-like)             | Helps distinguish between songs and spoken-word content like podcasts                     |
+| `acousticness`      | Confidence score (0-1) of whether the track is acoustic      | Indicates if the song uses acoustic instruments; useful for genre and mood categorization |
+| `instrumentalness`  | Prediction of whether a track contains no vocals             | Instrumentals vs. vocal tracks; good for background music recommendations                 |
+| `liveness`          | Presence of an audience in the recording (0–1)               | Higher = more likely it's a live performance                                              |
+| `valence`           | Musical positivity (0 = sad, 1 = happy)                      | Crucial for emotion-based playlists (e.g., feel-good music)                               |
+| `tempo`             | Tempo in BPM (beats per minute)                              | Important for DJing, workouts, and mood pacing                                            |
+| `time_signature`    | Beats per bar (e.g., 4 = common time)                        | Useful in rhythmic analysis and mixing                                                    |
+| `followers`         | Number of followers the artist has on the platform           | A measure of artist popularity and influence                                              |
+| `genres`            | Genre(s) associated with the artist                          | Key for categorizing music and recommendations                                            |
+| `name_artists`      | Name(s) of the artist(s)                                     | For readability and display                                                               |
+| `popularity_artist` | Popularity score of the artist (0–100 scale)                 | Shows how well-known the artist is overall; may influence song popularity                 |
