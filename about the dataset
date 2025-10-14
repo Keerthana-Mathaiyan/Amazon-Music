@@ -1,3 +1,6 @@
+
+
+
 | Column Name         | What It Is                                                   | Why It Matters                                                                            |
 | ------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
 | `id_songs`          | Unique identifier for each song                              | Used to uniquely identify and track songs in the database                                 |
@@ -23,3 +26,47 @@
 | `genres`            | Genre(s) associated with the artist                          | Key for categorizing music and recommendations                                            |
 | `name_artists`      | Name(s) of the artist(s)                                     | For readability and display                                                               |
 | `popularity_artist` | Popularity score of the artist (0–100 scale)                 | Shows how well-known the artist is overall; may influence song popularity                 |
+
+
+
+
+
+
+
+
+🔗 HOW THESE FEATURES ARE RELATED
+1. Songs & Artists
+
+id_songs and id_artists link songs to their creators.
+
+Each song has a corresponding artist (name_artists, id_artists), and artists can have multiple songs.
+
+popularity_songs often correlates with popularity_artist, but not always — a less popular artist might have a hit song.
+
+2. Popularity & Audio Features
+
+Songs with higher danceability, energy, or valence might be more popular because they are more engaging or feel-good.
+
+On the other hand, acoustic or instrumental tracks may have niche popularity.
+
+3. Artist Metrics
+
+followers, genres, and popularity_artist describe the artist's overall reach and appeal.
+
+These can help explain why a song might gain traction quickly (famous artist = more likely to go viral).
+
+4. Mood and Emotion
+
+valence, mode, tempo, energy, danceability work together to define the mood of a song.
+
+You can cluster songs into "happy", "sad", "chill", or "hype" playlists using these values.
+
+5. Temporal Patterns
+
+release_date can be used to study trends over time:
+
+Are songs getting shorter?
+
+Is there a rise in danceable music?
+
+Do certain genres trend at different times?
