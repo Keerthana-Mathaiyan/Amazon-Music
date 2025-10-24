@@ -5,27 +5,38 @@
 This interactive web app built with Streamlit allows users to explore music clustering and get song recommendations based on audio and artist features.
 
 
-File Name:  
+📂File Name:  
+
  📄single_genre_artists -  dataset
+
  📽️Amazon Music Clustering-ppt - have a explanation of streamlit app 
+ 
  📊amazon_music_clusters_all_methods - output from colab notebook which is used in streamlit app
+ 
  📝Amazon_Music_Culstering_ - colab notebook
-🌐app.py - streamlit code
+ 
+ 🌐app.py - streamlit code
+ 
  📝 Project guide lines - have the E2E information about the process involved in this project
-Streamlit OUTPUT file:
+ 
+ ⚙️Streamlit OUTPUT file:
+   
    📊music_clusters_dbscan-output
+   
    📊music_clusters_hierarchical-output
+   
    📊music_clusters_k-means-output
+   
    📊recommended_songs-output
 
-Features Include: 
+🧩Features Include: 
 
-♦️danceability, energy, loudness, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration_ms, etc.
+🔹danceability, energy, loudness, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration_ms, etc.
 
 
-Data Set Explanation:
+🛠️Data Set Explanation:
 
-♦️This dataset provides audio characteristics of Amazon Music songs that define how a song "sounds." These include rhythm, mood, intensity, and instrumentation.
+🔹This dataset provides audio characteristics of Amazon Music songs that define how a song "sounds." These include rhythm, mood, intensity, and instrumentation.
 
 
 
@@ -113,27 +124,28 @@ Features:
 
 🎨Clustering Visualizer
 
- ♦️Choose clustering method: K-Means, DBSCAN, Hierarchical
+ ✨Choose clustering method: K-Means, DBSCAN, Hierarchical
 
- ♦️View cluster size, average feature heatmaps, PCA projection
+ ✨View cluster size, average feature heatmaps, PCA projection
 
- ♦️Explore top genres per cluster
+ ✨Explore top genres per cluster
 
- ♦️⬇️ Download cluster data CSV
+ ✨⬇️ Download cluster data CSV
 
 🎧 Song Recommender
 
- ♦️Predefined filters: Rock, Classical, High Danceability, Happy
+ ✨Predefined filters: Rock, Classical, High Danceability, Happy
 
- ♦️Customized filters on genre and audio features
+ ✨Customized filters on genre and audio features
 
- ♦️Browse filtered songs and attributes
+ ✨Browse filtered songs and attributes
 
- ♦️⬇️ Download filtered songs CSV
+ ✨⬇️ Download filtered songs CSV
 
 📂 File Structure
 
-Technologies Used
+🔧Technologies Used:
+
  🐍 Python 3.x
 
  🌐 Streamlit for the web UI
@@ -142,7 +154,7 @@ Technologies Used
 
  🔍 Scikit-learn PCA for dimensionality reduction
 
-Installation & Usage
+⚙️Installation & Usage
 
      git clone https://github.com/yourusername/amazon-music-visualizer.git
      cd amazon-music-visualizer
