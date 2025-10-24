@@ -1,24 +1,31 @@
 🚀 Amazon Music Cluster Visualizer & Song Recommender 🎵
 
-Overview:
+🔍Overview:
 
 This interactive web app built with Streamlit allows users to explore music clustering and get song recommendations based on audio and artist features.
 
 
-Data Set:
-File Name:  Data_Set
-
+File Name:  
+ 📄single_genre_artists -  dataset
+ 📽️Amazon Music Clustering-ppt - have a explanation of streamlit app 
+ 📊amazon_music_clusters_all_methods - output from colab notebook which is used in streamlit app
+ 📝Amazon_Music_Culstering_ - colab notebook
+🌐app.py - streamlit code
+ 📝 Project guide lines - have the E2E information about the process involved in this project
+Streamlit OUTPUT file:
+   📊music_clusters_dbscan-output
+   📊music_clusters_hierarchical-output
+   📊music_clusters_k-means-output
+   📊recommended_songs-output
 
 Features Include: 
 
-danceability, energy, loudness, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration_ms, etc.
-
-
-Text Fields: track_id, track_name, artist_name (used for reference only).
+♦️danceability, energy, loudness, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration_ms, etc.
 
 
 Data Set Explanation:
-This dataset provides audio characteristics of Amazon Music songs that define how a song "sounds." These include rhythm, mood, intensity, and instrumentation.
+
+♦️This dataset provides audio characteristics of Amazon Music songs that define how a song "sounds." These include rhythm, mood, intensity, and instrumentation.
 
 
 
@@ -54,52 +61,52 @@ This dataset provides audio characteristics of Amazon Music songs that define ho
 
 1. Songs & Artists
 
-id_songs and id_artists link songs to their creators.
+♦️id_songs and id_artists link songs to their creators.
 
-Each song has a corresponding artist (name_artists, id_artists), and artists can have multiple songs.
+♦️Each song has a corresponding artist (name_artists, id_artists), and artists can have multiple songs.
 
-popularity_songs often correlates with popularity_artist, but not always — a less popular artist might have a hit song.
+♦️popularity_songs often correlates with popularity_artist, but not always — a less popular artist might have a hit song.
 
 2. Popularity & Audio Features
 
-Songs with higher danceability, energy, or valence might be more popular because they are more engaging or feel-good.
+♦️Songs with higher danceability, energy, or valence might be more popular because they are more engaging or feel-good.
 
-On the other hand, acoustic or instrumental tracks may have niche popularity.
+♦️On the other hand, acoustic or instrumental tracks may have niche popularity.
 
 3. Artist Metrics
 
-followers, genres, and popularity_artist describe the artist's overall reach and appeal.
+♦️followers, genres, and popularity_artist describe the artist's overall reach and appeal.
 
-These can help explain why a song might gain traction quickly (famous artist = more likely to go viral).
+♦️These can help explain why a song might gain traction quickly (famous artist = more likely to go viral).
 
 4. Mood and Emotion
 
-valence, mode, tempo, energy, danceability work together to define the mood of a song.
+♦️valence, mode, tempo, energy, danceability work together to define the mood of a song.
 
-You can cluster songs into "happy", "sad", "chill", or "hype" playlists using these values.
+♦️You can cluster songs into "happy", "sad", "chill", or "hype" playlists using these values.
 
 5. Temporal Patterns
 
-release_date can be used to study trends over time:
+♦️release_date can be used to study trends over time:
 
-Are songs getting shorter?
+♦️Are songs getting shorter?
 
-Is there a rise in danceable music?
+♦️Is there a rise in danceable music?
 
-Do certain genres trend at different times?
+♦️Do certain genres trend at different times?
 
 
 📊 How You Could Use This Dataset
 
-Recommendation systems: Suggest songs based on user preferences in mood, tempo, or popularity.
+♦️Recommendation systems: Suggest songs based on user preferences in mood, tempo, or popularity.
 
-Trend analysis: Analyze how music styles evolve over time.
+♦️Trend analysis: Analyze how music styles evolve over time.
 
-Genre classification: Use audio features to predict or cluster music genres.
+♦️Genre classification: Use audio features to predict or cluster music genres.
 
-Artist analysis: Study how an artist's style, popularity, or follower base changes over time.
+♦️Artist analysis: Study how an artist's style, popularity, or follower base changes over time.
 
-Hit prediction: Build a machine learning model to predict whether a song will be popular.
+♦️Hit prediction: Build a machine learning model to predict whether a song will be popular.
 
 
 Features:
