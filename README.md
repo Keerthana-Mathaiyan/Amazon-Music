@@ -3,6 +3,7 @@
 🔍Overview:
 
 This interactive web app built with Streamlit allows users to explore music clustering and get song recommendations based on audio and artist features.
+<img width="920" height="564" alt="image" src="https://github.com/user-attachments/assets/45736eec-38db-4bfa-9b0a-a1fbb86fc4ee" />
 
 
 📂File Name:  
