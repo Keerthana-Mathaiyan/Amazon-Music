@@ -1,75 +1,49 @@
-Amazon Music Cluster Visualizer & Song Recommender
-Overview
-This interactive web app built with Streamlit allows users to explore and visualize music clustering and get song recommendations based on audio and artist features. It demonstrates the use of multiple clustering algorithms and provides intuitive visualizations along with a powerful song filtering and recommendation system.
+🚀 Amazon Music Cluster Visualizer & Song Recommender 🎵
 
-Features
-Clustering Visualizer
+Overview:
 
-Choose from K-Means, DBSCAN, or Hierarchical clustering methods
+This interactive web app built with Streamlit allows users to explore music clustering and get song recommendations based on audio and artist features.
 
-View cluster distribution, feature profiles, and PCA 2D projections
+Features:
+🎨 Clustering Visualizer
 
-Explore top genres within each cluster
+     Choose clustering method: K-Means, DBSCAN, Hierarchical
 
-Download clustered data as CSV
+     View cluster size, average feature heatmaps, PCA projection
 
-Song Recommender
+     Explore top genres per cluster
 
-Select predefined filters like Rock, Classical, High Danceability, or Happy songs
+    ⬇️ Download cluster data CSV
 
-Customize filtering by genres and audio features (danceability, energy, valence, tempo)
+🎧 Song Recommender
 
-View filtered songs with key attributes
+Predefined filters: Rock, Classical, High Danceability, Happy
 
-Download filtered song lists as CSV
+Customized filters on genre and audio features
+
+Browse filtered songs and attributes
+
+⬇️ Download filtered songs CSV
 
 Technologies Used
-Python 3.x
+🐍 Python 3.x
 
-Streamlit for web app interface
+🌐 Streamlit for the web UI
 
-Pandas for data manipulation
+📊 Pandas, Seaborn, Matplotlib, Plotly for data visualization
 
-Matplotlib & Seaborn for static plots
+🔍 Scikit-learn PCA for dimensionality reduction
 
-Plotly Express for interactive visualizations
-
-scikit-learn PCA for dimensionality reduction
-
-Installation
-Clone the repository:
+Installation & Usage
+bash
 git clone https://github.com/yourusername/amazon-music-visualizer.git
-
-Create and activate a virtual environment (optional but recommended):
-
-bash
+cd amazon-music-visualizer
 python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-Install requirements:
-
-bash
+source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-Run the Streamlit app:
-
-bash
 streamlit run app.py
-Usage
-Select between Clustering Visualizer and Song Recommender in the sidebar.
+Select your analysis mode in the sidebar
 
-For Clustering Visualizer, pick a clustering method and explore various plots.
+Explore clusters or try song recommendation filters
 
-For Song Recommender, select a recommendation mode and apply filters.
-
-Use the download buttons to export filtered data as CSV files.
-
-File Structure
-app.py — Main Streamlit app
-
-amazon_music_clusters_all_methods.csv — Dataset with song features and cluster labels
-
-requirements.txt — Python dependencies
-
-License
-This project is licensed under the MIT License.
-
-For questions, feedback, or contributions, please open an issue or a pull request. Enjoy exploring music clusters and finding your next favorite song! 🎶
+Download data anytime using the provided buttons
